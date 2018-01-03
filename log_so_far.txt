@@ -1,0 +1,413 @@
+Python 3.6.2 (v3.6.2:5fd33b5, Jul  8 2017, 04:57:36) [MSC v.1900 64 bit (AMD64)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> for i in range(100):
+	print ("Hello world!")
+
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+Hello world!
+>>> #this is a comment
+>>> print("Hello world!")
+Hello world!
+>>> print("Python")
+Python
+>>> print("Hola!")
+Hola!
+>>> print("""This is a really really really really long line of code.""")
+This is a really really really really long line of code.
+>>> print\("""This is a really really really really long line of code.""")
+SyntaxError: unexpected character after line continuation character
+>>> print\
+       ("""This is a really really really long line of code.""")
+This is a really really really long line of code.
+>>> for i in range(100):
+	print("Hello, World!")
+
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+>>> "Hello, world!"
+'Hello, world!'
+>>> 'Hello world!'
+'Hello world!'
+>>> 2.2 + 2.2
+4.4
+>>> True
+True
+>>> False
+False
+>>> None
+>>> 2+2
+4
+>>> 2-2
+0
+>>> 4/2
+2.0
+>>> 3/2
+1.5
+>>> 2*2
+4
+>>> b = 100
+>>> b
+100
+>>> x = 100
+>>> x
+100
+>>> x = 200
+>>> x
+200
+>>> x = 10
+>>> y = 10
+>>> z = x + y
+>>> z
+20
+>>> 10/0
+Traceback (most recent call last):
+  File "<pyshell#35>", line 1, in <module>
+    10/0
+ZeroDivisionError: division by zero
+>>> y = 2
+>>> 		x = 1
+		
+SyntaxError: unexpected indent
+>>> 13//5
+2
+>>> 100 > 10
+True
+>>> 100 < 10
+False
+>>> 2 >= 2
+True
+>>> 2 <=2
+True
+>>> 2 == 2
+True
+>>> "yes" == 'yes'
+True
+>>> "yes" === 'yes'
+SyntaxError: invalid syntax
+>>> home = "America"
+>>> if home == "America" :
+	print("Hello, America!")
+else:
+	print("Hello, World!")
+
+Hello, America!
+>>> home = "Canada"
+>>> if home == "Aemerica"
+SyntaxError: invalid syntax
+>>> def f(x):
+	return x * 2
+
+>>> f(3)
+6
+>>> def f(x):
+	return x+1
+
+>>> 
+>>> z = f(4)
+>>> 
+>>> if z == 5:
+	print("z is 5")
+    else:
+	    
+SyntaxError: unindent does not match any outer indentation level
+>>> print("z is not 5")
+z is not 5
+>>> if z == 5:
+	print("z is 5")
+	else:
+		
+SyntaxError: invalid syntax
+>>> if z == 5:
+	print("z is 5")
+else:
+	print("z is not 5")
+
+z is 5
+>>> def f():
+	return 1+1
+
+>>> result = f()
+>>> print(result)
+2
+>>> def f(x,y,z)
+SyntaxError: invalid syntax
+>>> def f(x, y, z):
+	return x + y + z
+
+>>> result = f(1, 2, 3)
+>>> print(result)
+6
+>>> def f();
+SyntaxError: invalid syntax
+>>> def f():
+	z = 1 +1
+
+	
+>>> result = f()
+>>> print(result)
+None
+>>> len("Monty")
+5
+>>> len("Python")
+6
+>>> str(100)
+'100'
+>>> int("1")
+1
+>>> int("110")
+110
+>>> int(20.54)
+20
+>>> float("16.5")
+16.5
+>>> float(99)
+99.0
+>>> int("Prince")
+Traceback (most recent call last):
+  File "<pyshell#102>", line 1, in <module>
+    int("Prince")
+ValueError: invalid literal for int() with base 10: 'Prince'
+>>> age = input("Enter your age:")
+Enter your age:34
+>>> int_age = int(age)
+>>> if int_age < 21:
+	print("You are young!")
+else:
+	print("Wow, you are old!")
+
+Wow, you are old!
+>>> def even_odd(x):
+	if x % 2 == 0:
+		print("even")
+	else:
+		print("odd")
+
+>>> even_odd(2)
+even
+>>> even_odd(3)
+odd
+>>> even_odd(0)
+even
+>>> n = input("type a number:")
+type a number:12
+>>> n = int(2)
+>>> if n % 2 == 0:
+	print(
+
+
+
+)
+
+	
+
+>>> 
+>>> def f(x=2):
+	return x**x
+
+>>> print(f())
+4
+>>> print(f(4))
+256
+>>> def add_it(x, y=10):
+	return x + y
+
+>>> result = add_it(2)
+>>> print(result)
+12
+>>> 
